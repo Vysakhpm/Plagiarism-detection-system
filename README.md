@@ -42,8 +42,7 @@ A web-based platform for detecting plagiarism in academic submissions using inte
 - npm or yarn
 
  🔧 Backend Setup
-
-bash
+```bash
 git clone https://github.com/yourusername/plagiarism-detector.git
 cd plagiarism-detector
 
@@ -97,13 +96,13 @@ http://localhost:3000
 
 - 📤 **Assignment Upload**  
   - User uploads a document (PDF, DOCX, TXT) with assignment details
-     ![DOCUMENT SELECTION](https://github.com/user-attachments/assets/d5217e8a-ea82-4f64-8546-c181010815ea)
+![DOCUMENT SELECTION](https://github.com/user-attachments/assets/d5217e8a-ea82-4f64-8546-c181010815ea)
 
   - Backend extracts text content and stores it in the database  
 
 - 🧪 **Plagiarism Detection**  
   - User selects an assignment to check
-    ![CHECKING PLAGIARISM](https://github.com/user-attachments/assets/864003aa-e11d-4a06-92bd-8a42b00e5eb7)
+![CHECKING PLAGIARISM](https://github.com/user-attachments/assets/864003aa-e11d-4a06-92bd-8a42b00e5eb7)
 
   - Text is preprocessed (lowercase, cleaned)  
   - Detection algorithms are applied:
@@ -111,7 +110,7 @@ http://localhost:3000
     - K-gram Fingerprinting
     - Sentence-Level Matching  
   - Results (score + matches) are saved and returned
-    ![RESULTS COMPARISON](https://github.com/user-attachments/assets/25b54754-ef58-48b8-b526-2a3d4b2bd38e)
+![RESULTS COMPARISON](https://github.com/user-attachments/assets/25b54754-ef58-48b8-b526-2a3d4b2bd38e)
 
 
 - 📊 **Results Visualization**  
