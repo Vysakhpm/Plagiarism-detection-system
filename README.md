@@ -7,6 +7,8 @@ A web-based platform for detecting plagiarism in academic submissions using inte
 
 ---
 
+![INTERFACE](https://github.com/user-attachments/assets/79023587-6519-4a32-9cb5-d352fda990c6)
+
  🚀 Features
 
 - 📁 Upload files (PDF, DOCX, TXT)
@@ -80,9 +82,10 @@ npm run dev  # or yarn dev
 
 # Open in browser
 http://localhost:3000
+![SERVER RUNNING](https://github.com/user-attachments/assets/b6c0e1b3-c219-41a1-aa90-006dcaae33f2)
 
 
-"C:\Users\VYSAKH\Pictures\Screenshots\PLAGIARISM IMAGES\SERVER RUNNING.png"
+
 ---
 
  🔁 Project Workflow
@@ -93,24 +96,32 @@ http://localhost:3000
   - Tokens are stored in `localStorage` and used in API headers  
 
 - 📤 **Assignment Upload**  
-  - User uploads a document (PDF, DOCX, TXT) with assignment details  
+  - User uploads a document (PDF, DOCX, TXT) with assignment details
+     ![DOCUMENT SELECTION](https://github.com/user-attachments/assets/d5217e8a-ea82-4f64-8546-c181010815ea)
+
   - Backend extracts text content and stores it in the database  
 
 - 🧪 **Plagiarism Detection**  
-  - User selects an assignment to check  
+  - User selects an assignment to check
+    ![CHECKING PLAGIARISM](https://github.com/user-attachments/assets/864003aa-e11d-4a06-92bd-8a42b00e5eb7)
+
   - Text is preprocessed (lowercase, cleaned)  
   - Detection algorithms are applied:
     - TF-IDF + Cosine Similarity
     - K-gram Fingerprinting
     - Sentence-Level Matching  
-  - Results (score + matches) are saved and returned  
+  - Results (score + matches) are saved and returned
+    ![RESULTS COMPARISON](https://github.com/user-attachments/assets/25b54754-ef58-48b8-b526-2a3d4b2bd38e)
+
 
 - 📊 **Results Visualization**  
   - Frontend fetches results via API  
   - Plagiarism reports show:
     - Matched text snippets  
     - Source types (Assignment, Internet, DB)  
-    - Similarity scores  
+    - Similarity scores
+      
+![FINAL RESULT](https://github.com/user-attachments/assets/57d27dd6-11ba-4d5e-987b-530c61f9ecfb)
 
 - 🛠️ **Tech & Communication**  
   - Frontend ↔ Backend via RESTful API  
