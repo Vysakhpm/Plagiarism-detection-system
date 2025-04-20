@@ -42,7 +42,7 @@ A web-based platform for detecting plagiarism in academic submissions using inte
 - npm or yarn
 
  🔧 Backend Setup
-```bash
+bash
 git clone https://github.com/yourusername/plagiarism-detector.git
 cd plagiarism-detector
 
@@ -85,7 +85,6 @@ http://localhost:3000
 
 
 
----
 
  🔁 Project Workflow
 
