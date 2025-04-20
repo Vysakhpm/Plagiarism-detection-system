@@ -101,6 +101,7 @@ http://localhost:3000
 
 - 🧪 **Plagiarism Detection**  
   - User selects an assignment to check
+    
 ![CHECKING PLAGIARISM](https://github.com/user-attachments/assets/864003aa-e11d-4a06-92bd-8a42b00e5eb7)
 
   - Text is preprocessed (lowercase, cleaned)  
@@ -109,6 +110,7 @@ http://localhost:3000
     - K-gram Fingerprinting
     - Sentence-Level Matching  
   - Results (score + matches) are saved and returned
+    
 ![RESULTS COMPARISON](https://github.com/user-attachments/assets/25b54754-ef58-48b8-b526-2a3d4b2bd38e)
 
 
