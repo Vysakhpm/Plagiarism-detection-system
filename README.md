@@ -95,6 +95,7 @@ http://localhost:3000
 
 - 📤 **Assignment Upload**  
   - User uploads a document (PDF, DOCX, TXT) with assignment details
+  
 ![DOCUMENT SELECTION](https://github.com/user-attachments/assets/d5217e8a-ea82-4f64-8546-c181010815ea)
 
   - Backend extracts text content and stores it in the database  
