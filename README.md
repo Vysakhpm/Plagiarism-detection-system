@@ -58,6 +58,7 @@ python setup.py
 
 # Setup database
 python manage.py makemigrations accounts detector
+
 python manage.py migrate
 
 # Create superuser
