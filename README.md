@@ -42,10 +42,12 @@ A web-based platform for detecting plagiarism in academic submissions using inte
  🔧 Backend Setup
 bash
 git clone https://github.com/yourusername/plagiarism-detector.git
+
 cd plagiarism-detector
 
 # Create virtual environment
 python -m venv venv
+
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 # Install dependencies
