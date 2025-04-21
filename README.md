@@ -67,7 +67,8 @@ python manage.py createsuperuser
 # Run server
 python manage.py runserver
 
-🌐 Frontend Setup
+
+🌐 FRONTEND SETUP
 
 cd frontend
 
